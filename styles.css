@@ -5,20 +5,59 @@
     box-sizing: border-box;
 }
 
-#navigation {
+main {
     display: flex;
-    justify-content: flex-end;
-    justify-content: space-around;
-    background-color: darkgreen;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
 }
 
-.nav-list {
+#navigation {
+    height: 80px;
     display: flex;
-    list-style: none;
-    justify-content: space-around;
+    align-items: center;
+    background-color: darkgreen;
+    padding: 10px;
 }
 
 .logo {
     display: flex;
-    align-self: flex-start;
+    flex: 1;
+}
+
+.nav-list {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.hello {
+    background-color: pink;
+    font-size: 2em;
+   
+}
+
+.developer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer {
+    background-color: red;
+    display: flex;
+    /* align-items: flex-end; */
+    /* justify-content: space-between; */
+}
+
+.left-content {
+    display: flex;
+    flex: .7;
+}
+
+.right-content {
+    display: flex;
+    flex: .3;
+    justify-content: space-between;
 }

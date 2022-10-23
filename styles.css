@@ -1,3 +1,6 @@
+
+/* start viewport styling */
+
 * {
     padding: 0;
     margin: 0;
@@ -5,14 +8,12 @@
     box-sizing: border-box;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 850px;
-}
+/* end viewport styling */
 
-#navigation {
+
+/* start nav bar styling */
+
+.navigation {
     height: 80px;
     display: flex;
     align-items: center;
@@ -32,6 +33,15 @@ main {
     justify-content: space-between;
 }
 
+/* end nav bar styling */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
 .hello {
     background-color: pink;
     font-size: 2em;
@@ -44,20 +54,23 @@ main {
    justify-content: center;
 }
 
+/*start footer styling*/
+
 .footer {
-    background-color: red;
     display: flex;
+    padding: 10px;
     /* align-items: flex-end; */
     /* justify-content: space-between; */
 }
 
 .left-content {
     display: flex;
-    flex: .7;
+    flex: 2;
 }
 
 .right-content {
     display: flex;
-    flex: .3;
+    flex: 1;
     justify-content: space-between;
 }
+/*end footer styling*/

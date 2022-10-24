@@ -1,5 +1,5 @@
 
-/* START VIEWPORT */
+/* START MOBILE VIEWPORT */
 * {
     padding: 0;
     margin: 0;
@@ -7,9 +7,6 @@
     box-sizing: border-box;
     font-family: "Montserrat", serif;
 }
-
-/* END VIEWPORT */
-
 
 /* START BODY */
 body {
@@ -44,34 +41,35 @@ header {
 main {
     color: #6D1A36;
     padding: 80px;
+    position: relative;
 }   
 
 .intro {
-    margin-top: 110px;
+    margin-top: 15px;
 }
 
 .hello {
-    font-size: 1.5rem;
+    font-size: 1.1em;
 }
 
 .loreli {
     margin-top: 5px;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
    
 
 .i-am {
     margin-top: 5px;
-    margin-bottom: 30px;
-    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
     color: #230C0F;
     opacity: .75;
 }
 
 .checkout a {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: .9rem;
     text-decoration: none;
     background-color: #F4FDAF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -80,13 +78,14 @@ main {
 
 /* START FOOTER */
 .social-media {
-    padding-top: 180px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 30px;
 }
+
 
 .mini-circle {
     width: 50px;
@@ -95,17 +94,64 @@ main {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    vertical-align: middle;
 }
+
 
 .mini-circle-a {
     display: flex;
     align-items: center;
     text-decoration: none;
+    z-index: 1;
 }
     
 i {
-    color: rgba(35,12,15,.75);
+    color: rgba(35,12,15,.60);
 }
 
+.line {
+    height: 3px;
+    width: 270px;
+    background: #F4FDAF;
+    position: relative;
+    bottom: 75px;
+    display: flex;
+  }
+
 /* END FOOTER */
+
+/* END MOBILE VIEWPORT */
+
+/* START DESKTOP VIEWPORT 
+
+@media screen and (min-width: 600px) {
+
+    main {
+        margin-left: 250px;
+    }   
+    .hello {
+        font-size: 1.8rem;
+    }
+    
+    .loreli {
+        margin-top: 5px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+       
+    
+    .i-am {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        color: #230C0F;
+        opacity: .75;
+    }
+    
+    .checkout a {
+        padding: 10px;
+        font-size: 1.8rem;
+        text-decoration: none;
+        background-color: #F4FDAF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    }
+}

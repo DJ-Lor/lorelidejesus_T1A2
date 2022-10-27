@@ -48,7 +48,7 @@ header {
 /* START MAIN */
 main {
     color: #6D1A36;
-    padding: 20%;
+    /* padding: 20%; */
     position: relative;
 }   
 
@@ -57,15 +57,9 @@ main {
 }
 
 .hello {
-    font-size: 1.1em;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
-
-.loreli {
-    margin-top: 5px;
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-   
 
 .i-am {
     margin-top: 5px;
@@ -119,37 +113,52 @@ main {
 
 
 /* Start of blog-page styling */
+
+main h1 {
+    margin: 5% 0 0 10%;
+}
+
 .blogs {
     display: flex;
     flex-direction: column;
-    margin: 10%;
+    margin: 0 10% 10% 10%;
     justify-content: space-between;
     align-items: center;
 }
 
 .blog-item {
     width: 300px;
-    height: 250px;
+    height: auto;
     background-color: #F4FDAF;
     margin: 15px;
+    padding: 20px;
 }
 
-/* .blog-category {
-    margin: 5% 0% 5% 10%;
+.blog-category {
+    margin-bottom: 5px;
 }
 
 .blog-title {
-    margin: 5% 0% 5% 10%;
-} */
+    margin-bottom: 10px;
+    color: rgba(35, 12, 15,.75);
+}
+
+.blog-content {
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.blog-timestamp {
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
 
 .blog-image {
     display: flex;
     justify-content: center;
 }
-
-
-/* End of Contact-page styling */
-
+/* End of blog-page styling */
 
 /* START FOOTER */
 footer {
@@ -197,6 +206,54 @@ i {
     left: 0;
     right: 0;
   }
+
+/*Start blog-page mobile only styling */
+.footer-blog {
+    position: relative;
+    width: 100%;
+    bottom: 40px;
+}
+
+.line-blog {
+    width: 100%;
+    height: 3px;
+    background: #F4FDAF;
+    top: 50%;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+
+.social-media-blog {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    position: relative;
+}
+
+.mini-circle-blog {
+    width: 50px;
+    height: 50px;
+    background-color: #F4FDAF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.mini-circle-a-blog {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1;
+}
+    
+i {
+    color: rgba(35,12,15,.40);
+}
+
+
+/*End blog-page mobile only styling */
 
 /* END FOOTER */
 
@@ -257,18 +314,12 @@ i {
     }
 
     .hello {
-        font-size: 1.7em;
-    }
-
-    .loreli {
-        margin-top: 5px;
-        font-size: 2.2rem;
-        font-weight: bold;
+        font-size: 2.2em;
     }
 
     .i-am {
         margin-top: 5px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         font-size: 2.2rem;
         color: #230C0F;
         opacity: .75;
@@ -277,8 +328,8 @@ i {
     .checkout a {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 25px;
+        padding-left: 25px;
         font-size: 1.5rem;
         text-decoration: none;
         background-color: #F4FDAF;
@@ -356,8 +407,58 @@ i {
         left: 50%;
         top: 0;
     }
+
+/* Start blog footer desktop styling */
+.footer-blog {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
 }
-    /* END FOOTER */
+
+
+.social-media-blog {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    position: relative;
+}
+
+
+.mini-circle-blog {
+    width: 50px;
+    height: 50px;
+    background-color: #F4FDAF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mini-circle-a-blog {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1;
+}
+    
+i {
+    color: rgba(35,12,15,.40);
+}
+
+.line-blog {
+    width: 3px;
+    height: 100%;
+    background: #F4FDAF;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+  }
+}
+/* End blog footer desktop styling */
+
+
+/* END FOOTER */
 
 
 /* END DESKTOP VIEWPORT */

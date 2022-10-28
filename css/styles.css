@@ -48,7 +48,6 @@ header {
 /* START MAIN */
 main {
     color: #6D1A36;
-    /* padding: 20%; */
     position: relative;
 }   
 
@@ -360,10 +359,7 @@ i {
 
 
 
-
-
-
-      /* START SECTION */
+/* START SECTION */
 
        .line-right-desktop {
         background: #F4FDAF;
@@ -373,7 +369,54 @@ i {
         left: 93%;
         bottom: 0;
        }
-    /* END SECTION */
+/* END SECTION */
+
+/* Start of blog-page styling */
+main h1 {
+    margin: 0 0 5% 15%;
+}
+
+.blogs {
+    margin: 0 10% 10% 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.blog-item {
+    width: 300px;
+    height: auto;
+    background-color: #F4FDAF;
+    margin: 15px;
+    padding: 20px;
+}
+
+.blog-category {
+    margin-bottom: 5px;
+}
+
+.blog-title {
+    margin-bottom: 10px;
+    color: rgba(35, 12, 15,.75);
+}
+
+.blog-content {
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.blog-timestamp {
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+
+.blog-image {
+    display: flex;
+    justify-content: center;
+}
+/* End of blog-page styling */
 
     /* START FOOTER */
 
@@ -407,55 +450,6 @@ i {
         left: 50%;
         top: 0;
     }
-
-/* Start blog footer desktop styling */
-.footer-blog {
-    position: absolute;
-    width: 100%;
-    bottom: 40px;
-}
-
-
-.social-media-blog {
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    position: relative;
-}
-
-
-.mini-circle-blog {
-    width: 50px;
-    height: 50px;
-    background-color: #F4FDAF;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-
-.mini-circle-a-blog {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    z-index: 1;
-}
-    
-i {
-    color: rgba(35,12,15,.40);
-}
-
-.line-blog {
-    width: 3px;
-    height: 100%;
-    background: #F4FDAF;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-  }
-}
-/* End blog footer desktop styling */
 
 
 /* END FOOTER */

@@ -21,6 +21,11 @@ header {
     height: 80px;
 }
 
+.my-logo img {
+    width: 80px;
+    height: 80px;
+}
+
 .header-left-content {
     margin-left: 25px;
     display: flex;
@@ -49,6 +54,7 @@ header {
 main {
     color: #6D1A36;
     position: relative;
+    margin: 65px;
 }   
 
 .intro {
@@ -108,14 +114,18 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.say-hello a {
+    text-decoration: none;
+}
 /* End of contact-page styling */
 
 
 /* Start of blog-page styling */
-
+/* 
 main h1 {
     margin: 5% 0 0 10%;
-}
+} */
 
 .blogs {
     display: flex;
@@ -131,6 +141,8 @@ main h1 {
     background-color: #F4FDAF;
     margin: 15px;
     padding: 20px;
+    list-style: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
 }
 
 .blog-category {
@@ -156,8 +168,59 @@ main h1 {
 .blog-image {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
 }
 /* End of blog-page styling */
+
+/*Start of about-page styling */
+
+.about-me-left-side {
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-me-left-side p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.about-me-right-side {
+    display: flex;
+    justify-content: center;
+}
+.about-me-right-side img {
+    width: 150px;
+    height: 150px;
+    filter: opacity(75%)
+}
+
+.checkout-resume {
+    margin: 20px 40px 35px 40px;
+    width: 150px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #F4FDAF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.checkout-resume a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+/*End of about-page styling */
+
+
+
 
 /* START FOOTER */
 footer {
@@ -260,6 +323,11 @@ i {
 
 @media screen and (min-width:1281px) {
 
+    .my-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
     /* START BODY */
     .hidden-title {
         display: none;
@@ -278,6 +346,8 @@ i {
         display: flex;
         justify-content: flex-start;
         flex: 1;
+        margin-left: 3%;
+        margin-top: 3%;
     }
     
     .header-right-content {
@@ -337,6 +407,53 @@ i {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
+/*Start of about-page styling */
+        /* .about-me-main-desktop {
+            display: flex;
+            flex-direction: column;
+        } */
+        .about-me-main {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .about-me-left-side {
+            font-size: .7rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .about-me-left-side p {
+            margin-top: 20px;
+        }
+
+        .about-me-right-side {
+            display: flex;
+            justify-content: center;
+        }
+        .about-me-right-side img {
+            width: 150px;
+            height:150px;
+            filter: opacity(75%)
+        }
+
+        .checkout-resume {
+            margin: 20px 40px 35px 40px;
+            width: 150px;
+            padding: 5px;
+            font-size: .7rem;
+            text-decoration: none;
+            background-color: #F4FDAF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .checkout-resume a {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+/*End of about-page styling */
 
 /* Start of contact-page styling */
 .contact-container {

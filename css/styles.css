@@ -110,14 +110,14 @@ main {
 
 .contact {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
 .connect {
-    font-size: .8rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -128,7 +128,7 @@ main {
     width: 150px;
     padding: 10px;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background-color: #F4FDAF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -212,6 +212,7 @@ a.blog-visited:visited {
     text-decoration: underline;
     font-size: .8rem;
     margin-bottom: 30px;
+    font-style: italic;
 }
 
 .blog-category-article {
@@ -281,7 +282,7 @@ a.back-visited:visited {
 
 .checkout-resume {
     margin: 13%;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     background-color: #F4FDAF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -291,7 +292,7 @@ a.back-visited:visited {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1em;
 }
 /* visited link */
 a.checkout-resume-visited:visited {
@@ -616,12 +617,9 @@ i {
 
     /* Start of blog-article-page styling */
 
-    /* .back-to-blog-link a {
-        display: none;
-    } */
 
     .blog-category-article {
-        margin-top: 0px;
+        margin-top: 20px;
         font-size: 1rem;
     }
 
@@ -743,4 +741,84 @@ i {
     }
 
     /*End blog-page mobile only styling */
+
+
+
+
+
+
+/* 
+    header {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        height: 80px;
+    }
+    
+    .my-logo img {
+        width: 80px;
+        height: 80px;
+        margin-top: 15px;
+    }
+    
+    .header-left-content {
+        margin-left: 25px;
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+    }
+    
+    .header-right-content {
+        margin-right: 6%;
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+    }
+    
+    .header-right-content a {
+        color: #F4FDAF;
+        text-decoration: none;
+        font-weight: bold;
+        padding-right: 40px;
+        font-size: 10px;
+        padding-top: 10%;
+    }
+    
+    
+    /* visited link */
+    a.nav-list:visited {
+        color: #F4FDAF;
+    }
+    
+    /* mouse over link */
+    a.nav-list:hover {
+        color: #6D1A36;
+    }
+    
+    /* selected link */
+    a.nav-list:active, a.nav-list.active  {
+        color: #6D1A36;
+    }
+    
+    
+    .header-nav-list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

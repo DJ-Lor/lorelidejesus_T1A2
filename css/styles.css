@@ -203,8 +203,7 @@ main h1 {
 }
 
 .checkout-resume {
-    margin: 20px 40px 35px 40px;
-    width: 150px;
+    margin: 13%;
     padding: 5px;
     text-decoration: none;
     background-color: #F4FDAF;
@@ -215,7 +214,7 @@ main h1 {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 /*End of about-page styling */
 
@@ -408,33 +407,32 @@ i {
     }
 
 /*Start of about-page styling */
-        /* .about-me-main-desktop {
-            display: flex;
-            flex-direction: column;
-        } */
+
         .about-me-main {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
+           display: flex;
+        
         }
         .about-me-left-side {
             font-size: .7rem;
             display: flex;
             justify-content: center;
+            flex: 1;
         }
 
         .about-me-left-side p {
             margin-top: 20px;
+           
         }
 
         .about-me-right-side {
             display: flex;
             justify-content: center;
+            flex: 1;
         }
         .about-me-right-side img {
-            width: 150px;
-            height:150px;
             filter: opacity(75%)
+            width: 350px;
+            height: auto;
         }
 
         .checkout-resume {

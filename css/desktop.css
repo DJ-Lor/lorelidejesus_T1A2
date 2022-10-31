@@ -1,0 +1,362 @@
+/* START DESKTOP VIEWPORT */
+
+@media screen and (min-width:992px) {
+
+    .my-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .hidden-title {
+        display: none;
+    }
+
+    header {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        height: 80px;
+    }
+
+    .header-left-content {
+        margin-left: 25px;
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+    .header-right-content {
+        margin-right: 6%;
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+    }
+
+    .header-right-content a {
+        color: #F4FDAF;
+        text-decoration: none;
+        font-weight: bold;
+        padding-right: 40px;
+        font-size: 20px;
+        padding-top: 10%;
+    }
+
+    main {
+        color: #6D1A36;
+        padding: 80px 80px 0 80px;
+        position: relative;
+    }
+
+    .intro {
+        padding-left: 25%;
+        padding-top: 10%;
+    }
+
+    .i-am {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-size: 2.2rem;
+        color: #230C0F;
+        opacity: .75;
+    }
+
+    .checkout a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: #F4FDAF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .about-me-main {
+        display: flex;
+
+    }
+
+    .about-me-left-side {
+        flex: 1rem;
+        margin-left: 40px;
+    }
+
+    .about-me-right-side {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+
+    .about-me-right-side img {
+        filter: opacity(75%);
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+        object-position: bottom;
+    }
+
+    .about-me-last {
+        margin-bottom: 30px;
+    }
+
+    .checkout-resume {
+        width: 250px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: #F4FDAF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 0;
+    }
+
+    .checkout-resume a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    .contact-container {
+        padding: 10% 28%;
+    }
+
+    .contact {
+        font-size: 2.5rem;
+        margin-bottom: 35px;
+    }
+
+    .connect {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+    }
+
+    .say-hello {
+        width: 230px;
+        font-size: 1.2rem;
+    }
+
+    .line-right-desktop {
+        background: #F4FDAF;
+        position: fixed;
+        width: 3px;
+        height: 60%;
+        left: 93%;
+        bottom: 0;
+    }
+
+    main h1 {
+        margin-left: 3%;
+    }
+
+    .blogs {
+        margin: 0 10% 10% 10%;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .blog-item {
+        width: 300px;
+        height: auto;
+        background-color: #F4FDAF;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .blog-category {
+        margin-bottom: 5px;
+    }
+
+    .blog-title {
+        margin-bottom: 10px;
+        color: rgba(35, 12, 15, .75);
+    }
+
+    .blog-content {
+        font-size: 0.8rem;
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+
+    .blog-timestamp {
+        font-size: 0.8rem;
+        padding-top: 15px;
+    }
+
+    .blog-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-category-article {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .blog-title-article {
+        font-size: 2rem;
+    }
+
+    .blog-timestamp-article {
+        font-size: 1rem;
+    }
+
+    .blog-image-article {
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .blog-image-article img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .blog-content-article {
+        font-size: 1rem;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    footer {
+        width: 200px;
+        height: 400px;
+        left: 10px;
+        bottom: 0;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        position: relative;
+        align-items: center;
+        height: 100%;
+        justify-content: space-evenly;
+        padding-top: 10%;
+        padding-bottom: 0;
+    }
+
+    .mini-circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .line {
+        width: 3px;
+        height: 100%;
+        left: 50%;
+        top: 0;
+    }
+
+    .footer-blog {
+        position: fixed;
+        width: 200px;
+        height: 400px;
+        left: 80px;
+        bottom: 0;
+    }
+
+    .social-media-blog {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        position: relative;
+        height: 100%;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .mini-circle-blog {
+        width: 40px;
+        height: 40px;
+        background-color: #F4FDAF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mini-circle-a-blog {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    i {
+        color: rgba(35, 12, 15, .40);
+    }
+
+    .line-blog {
+        background: #F4FDAF;
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        left: 10%;
+        top: 0;
+    }
+
+    header {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        height: 80px;
+    }
+
+    .my-logo img {
+        width: 100px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    .header-left-content {
+        margin-left: 25px;
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+    }
+
+    .header-right-content {
+        margin-right: 6%;
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+    }
+
+    .header-right-content a {
+        color: #F4FDAF;
+        text-decoration: none;
+        font-weight: bold;
+        padding-right: 40px;
+        font-size: 25px;
+        padding-top: 15%;
+    }
+
+    a.nav-list:visited {
+        color: #F4FDAF;
+    }
+
+    a.nav-list:hover {
+        color: #6D1A36;
+    }
+
+    a.nav-list:active,
+    a.nav-list.active {
+        color: #6D1A36;
+    }
+
+    .header-nav-list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+}
+
+/* END DESKTOP VIEWPORT */

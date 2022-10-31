@@ -1,4 +1,6 @@
-/* START MOBILE VIEWPORT */
+
+/* GLOBAL STYLING */
+
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +10,6 @@
     text-decoration: none;
 }
 
-/* START BODY */
 body {
     background-color: #F5E2C8;
 }
@@ -20,6 +21,15 @@ header {
     padding: 20px;
     height: 80px;
 }
+
+main {
+    color: #6D1A36;
+    position: relative;
+    margin: 65px;
+}
+
+/* START MOBILE VIEWPORT */
+/* NAV BAR STYLING */
 
 .my-logo img {
     width: 80px;
@@ -50,23 +60,18 @@ header {
     padding-top: 20%;
 }
 
-
-/* visited link */
 a.nav-list:visited {
     color: #F4FDAF;
 }
 
-/* mouse over link */
 a.nav-list:hover {
     color: #6D1A36;
 }
 
-/* selected link */
 a.nav-list:active,
 a.nav-list.active {
     color: #6D1A36;
 }
-
 
 .header-nav-list {
     display: flex;
@@ -78,12 +83,7 @@ a.nav-list.active {
     justify-content: flex-end;
 }
 
-/* START MAIN */
-main {
-    color: #6D1A36;
-    position: relative;
-    margin: 65px;
-}
+/* ROOT STYLING */
 
 .intro {
     margin-top: 15px;
@@ -109,53 +109,53 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* Start of contact-page styling */
-.contact-container {
-    margin-bottom: 25%;
-}
+/* ABOUT-PAGE STYLING */
 
-.contact {
-    font-weight: bold;
-    font-size: 2rem;
+.about-me-left-side {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    flex-direction: column;
 }
 
-.connect {
+.about-me-left-side p {
+    margin-top: 20px;
     font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: justify;
+
 }
 
-.say-hello {
+.about-me-right-side {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-right-side img {
     width: 150px;
+    height: 150px;
+    filter: opacity(75%)
+}
+
+.checkout-resume {
+    margin: 13%;
     padding: 10px;
-    margin: 0 auto;
-    font-size: 1rem;
+    text-decoration: none;
     background-color: #F4FDAF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.checkout-resume a {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.say-hello a {
     text-decoration: none;
+    font-size: 1em;
+}
+
+a.checkout-resume-visited:visited {
     color: #6D1A36;
 }
 
-/* visited link */
-a.hello:visited {
-    color: #6D1A36;
-}
+/* BLOG-PAGE STYLING */
 
-/* End of contact-page styling */
-
-
-/* Start of blog-page styling */
 .blogs {
     display: flex;
     flex-direction: column;
@@ -206,14 +206,12 @@ a.hello:visited {
     height: auto;
 }
 
-/* visited link */
 a.blog-visited:visited {
     color: #6D1A36;
 }
 
-/* End of blog-page styling */
+/* BLOG-ARTICLE-PAGE STYLING */
 
-/* Start of blog-article-page styling */
 .back-to-blog-link a {
     text-decoration: underline;
     font-size: .8rem;
@@ -253,71 +251,60 @@ a.blog-visited:visited {
     text-align: justify;
 }
 
-/* visited link */
 a.back-visited:visited {
     color: #6D1A36;
 }
 
-/* End of blog-article-page styling */
+/* CONTACT-PAGE STYLING */
 
-/*Start of about-page styling */
-
-.about-me-left-side {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.contact-container {
+    margin-bottom: 25%;
 }
 
-.about-me-left-side p {
-    margin-top: 20px;
+.contact {
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.connect {
     font-size: 1rem;
-    text-align: justify;
-
-}
-
-.about-me-right-side {
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.about-me-right-side img {
+.say-hello {
     width: 150px;
-    height: 150px;
-    filter: opacity(75%)
-}
-
-.checkout-resume {
-    margin: 13%;
     padding: 10px;
-    text-decoration: none;
+    margin: 0 auto;
+    font-size: 1rem;
     background-color: #F4FDAF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.checkout-resume a {
     display: flex;
     justify-content: center;
-    text-decoration: none;
-    font-size: 1em;
+    align-items: center;
 }
 
-/* visited link */
-a.checkout-resume-visited:visited {
+.say-hello a {
+    text-decoration: none;
     color: #6D1A36;
 }
 
-/*End of about-page styling */
+a.hello:visited {
+    color: #6D1A36;
+}
 
+/* FOOTER STYLING */
 
-
-
-/* START FOOTER */
 footer {
     position: absolute;
     width: 100%;
     bottom: 40px;
 }
-
 
 .social-media {
     padding: 40px;
@@ -327,7 +314,6 @@ footer {
     position: relative;
 }
 
-
 .mini-circle {
     width: 50px;
     height: 50px;
@@ -336,7 +322,6 @@ footer {
     display: flex;
     justify-content: center;
 }
-
 
 .mini-circle-a {
     display: flex;
@@ -358,7 +343,8 @@ i {
     right: 0;
 }
 
-/*Start blog-page mobile only styling */
+/* BLOG-PAGE FOOTER MOBILE STYLING */
+
 .footer-blog {
     position: relative;
     width: 100%;
@@ -403,11 +389,9 @@ i {
     color: rgba(35, 12, 15, .40);
 }
 
-/*End blog-page mobile only styling */
-
-/* END FOOTER */
-
 /* END MOBILE VIEWPORT */
+
+
 
 /* START DESKTOP VIEWPORT */
 
@@ -418,7 +402,6 @@ i {
         height: 100px;
     }
 
-    /* START BODY */
     .hidden-title {
         display: none;
     }
@@ -456,10 +439,6 @@ i {
         padding-top: 10%;
     }
 
-
-    /* END BODY */
-
-    /* START MAIN */
     main {
         color: #6D1A36;
         padding: 80px 80px 0 80px;
@@ -490,8 +469,6 @@ i {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    /*Start of about-page styling */
-
     .about-me-main {
         display: flex;
 
@@ -501,7 +478,6 @@ i {
         flex: 1rem;
         margin-left: 40px;
     }
-
 
     .about-me-right-side {
         display: flex;
@@ -537,9 +513,6 @@ i {
         font-size: 1.2rem;
     }
 
-    /*End of about-page styling */
-
-    /* Start of contact-page styling */
     .contact-container {
         padding: 10% 28%;
     }
@@ -559,12 +532,6 @@ i {
         font-size: 1.2rem;
     }
 
-    /* End of contact-page styling */
-
-
-
-    /* START SECTION */
-
     .line-right-desktop {
         background: #F4FDAF;
         position: fixed;
@@ -574,9 +541,6 @@ i {
         bottom: 0;
     }
 
-    /* END SECTION */
-
-    /* Start of blog-page styling */
     main h1 {
         margin-left: 3%;
     }
@@ -622,11 +586,6 @@ i {
         justify-content: center;
     }
 
-    /* End of blog-page styling */
-
-    /* Start of blog-article-page styling */
-
-
     .blog-category-article {
         margin-top: 20px;
         font-size: 1rem;
@@ -659,11 +618,6 @@ i {
         text-align: justify;
     }
 
-    /* End of blog-article-page styling */
-
-
-    /* START FOOTER */
-
     footer {
         width: 200px;
         height: 400px;
@@ -695,10 +649,6 @@ i {
         top: 0;
     }
 
-    /* END FOOTER */
-    /* END DESKTOP VIEWPORT */
-
-    /*Start blog-page mobile only styling */
     .footer-blog {
         position: fixed;
         width: 200px;
@@ -706,7 +656,6 @@ i {
         left: 80px;
         bottom: 0;
     }
-
 
     .social-media-blog {
         display: flex;
@@ -718,7 +667,6 @@ i {
         padding: 0;
     }
 
-
     .mini-circle-blog {
         width: 40px;
         height: 40px;
@@ -727,7 +675,6 @@ i {
         display: flex;
         justify-content: center;
     }
-
 
     .mini-circle-a-blog {
         display: flex;
@@ -748,15 +695,6 @@ i {
         left: 10%;
         top: 0;
     }
-
-    /*End blog-page mobile only styling */
-
-
-
-
-
-
-
 
     header {
         margin-top: 20px;
@@ -795,23 +733,18 @@ i {
         padding-top: 15%;
     }
 
-
-    /* visited link */
     a.nav-list:visited {
         color: #F4FDAF;
     }
 
-    /* mouse over link */
     a.nav-list:hover {
         color: #6D1A36;
     }
 
-    /* selected link */
     a.nav-list:active,
     a.nav-list.active {
         color: #6D1A36;
     }
-
 
     .header-nav-list {
         display: flex;
@@ -820,6 +753,11 @@ i {
     }
 
 }
+
+/* END DESKTOP VIEWPORT */
+
+
+/* END TABLET VIEWPORT */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -852,18 +790,14 @@ i {
         padding-top: 20%;
     }
 
-
-    /* visited link */
     a.nav-list:visited {
         color: #F4FDAF;
     }
 
-    /* mouse over link */
     a.nav-list:hover {
         color: #6D1A36;
     }
 
-    /* selected link */
     a.nav-list:active,
     a.nav-list.active {
         color: #6D1A36;
@@ -880,7 +814,6 @@ i {
         justify-content: flex-end;
     }
 
-    /* START MAIN */
     main {
         color: #6D1A36;
         position: relative;
@@ -912,7 +845,6 @@ i {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    /* Start of contact-page styling */
     .contact-container {
         margin-bottom: 25%;
     }
@@ -950,15 +882,10 @@ i {
         color: #6D1A36;
     }
 
-    /* visited link */
     a.hello:visited {
         color: #6D1A36;
     }
 
-    /* End of contact-page styling */
-
-
-    /* Start of blog-page styling */
     .blogs {
         display: flex;
         flex-direction: column;
@@ -1009,14 +936,10 @@ i {
         height: auto;
     }
 
-    /* visited link */
     a.blog-visited:visited {
         color: #6D1A36;
     }
 
-    /* End of blog-page styling */
-
-    /* Start of blog-article-page styling */
     .back-to-blog-link a {
         text-decoration: underline;
         font-size: .8rem;
@@ -1056,14 +979,9 @@ i {
         text-align: justify;
     }
 
-    /* visited link */
     a.back-visited:visited {
         color: #6D1A36;
     }
-
-    /* End of blog-article-page styling */
-
-    /*Start of about-page styling */
 
     .about-me-left-side {
         display: flex;
@@ -1075,7 +993,6 @@ i {
         margin-top: 20px;
         font-size: 1rem;
         text-align: justify;
-
     }
 
     .about-me-right-side {
@@ -1104,23 +1021,15 @@ i {
         font-size: 1em;
     }
 
-    /* visited link */
     a.checkout-resume-visited:visited {
         color: #6D1A36;
     }
 
-    /*End of about-page styling */
-
-
-
-
-    /* START FOOTER */
     footer {
         position: absolute;
         width: 100%;
         bottom: 40px;
     }
-
 
     .social-media {
         padding: 40px;
@@ -1130,7 +1039,6 @@ i {
         position: relative;
     }
 
-
     .mini-circle {
         width: 50px;
         height: 50px;
@@ -1139,7 +1047,6 @@ i {
         display: flex;
         justify-content: center;
     }
-
 
     .mini-circle-a {
         display: flex;
@@ -1161,7 +1068,6 @@ i {
         right: 0;
     }
 
-    /*Start blog-page mobile only styling */
     .footer-blog {
         position: relative;
         width: 100%;
@@ -1205,12 +1111,6 @@ i {
     i {
         color: rgba(35, 12, 15, .40);
     }
-
-    /*End blog-page mobile only styling */
-
-    /* END FOOTER */
-
-    /* END MOBILE VIEWPORT */
-
-    /* START DESKTOP VIEWPORT */
 }
+    
+/* END TABLET VIEWPORT */

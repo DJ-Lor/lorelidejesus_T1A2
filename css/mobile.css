@@ -59,7 +59,8 @@ a.nav-list.active {
 /* Root Styling */
 
 .intro {
-    margin-top: 15px;
+    padding-top: 20%;
+    padding-left: 10%;
 }
 
 .hello {
@@ -109,7 +110,8 @@ a.nav-list.active {
 }
 
 .checkout-resume {
-    margin: 13%;
+    /* margin: 13%; */
+    margin: 10% 5% 10% 5%;
     padding: 10px;
     text-decoration: none;
     background-color: #F4FDAF;
@@ -202,7 +204,7 @@ a.blog-visited:visited {
 
 .blog-title-article {
     margin-top: 5px;
-    color: rgba(35, 12, 15, .75);
+    color: rgba(35, 12, 15, .80);
 }
 
 .blog-timestamp-article {
@@ -236,7 +238,7 @@ a.back-visited:visited {
 /* Contact-page Styling */
 
 .contact-container {
-    margin-bottom: 25%;
+    padding-top: 20%;
 }
 
 .contact {

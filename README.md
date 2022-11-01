@@ -57,7 +57,7 @@ ___
         </div>
     </header>
 ````
-* The footer contains links to social media and contact details. A script is included on the HTML head for the icons to reflect. 
+* The footer contains links to social media and contact details. A [Fontawesome](https://fontawesome.com/) script is included on the HTML head for the icons to reflect.  
 
 ```html
   <script src="https://use.fontawesome.com/abf61f5ec6.js"></script>
@@ -92,8 +92,7 @@ ___
     * about.html
     * contact.html
 
-* Images are present on key pages to complement text-heavy pages and keep the target audience attention.  
-
+* Images are present on key pages to complement text-heavy pages and keep the target audience attention. Utilised [Unsplash](https://unsplash.com/) for free, no copyright images. 
 
 2. CSS
 
@@ -104,7 +103,7 @@ ___
     * #6D1A36
     * #230C0F
 
-* Defined the official website font through google fonts (https://fonts.google.com/specimen/Montserrat) and font family established. Also set the global styling to a blank canvas.
+* Defined the official website font through [google fonts](https://fonts.google.com/specimen/Montserrat) and font family established. Also set the global styling to a blank canvas. 
 
 ```css
 * {
@@ -149,6 +148,9 @@ ___
     * contact.html
 * css/
     * styles.css
+    * mobile.css
+    * tablet.css
+    * desktop.css
 * images/
         * ...
 * docs/
@@ -158,6 +160,9 @@ ___
 ___
 
 ## 5. Wireframes ##
+
+Utilised [Figma](https://www.figma.com/) to create the website's wireframe. [^4] 
+
 
 ![Root](/images/wireframe-root.png)
 ![About-page](/images/wireframe-about-page.png)
@@ -169,9 +174,24 @@ ___
 
 ## 6. Tech Stack ##
 
-* html
-* css
-* google fonts
-* fontawesome
-* netlify
+* [HTML](https://www.w3schools.com/html/html_intro.asp)
+* [CSS](https://www.w3schools.com/css/css_intro.asp)
+* [Google Fonts](https://fonts.google.com/)
+* [Fontawesome](https://fontawesome.com/)
+* [Netlify](https://www.netlify.com/)
 
+____
+
+## References ## 
+
+* Banks, C. (2019). We are better when we are united [Image].  Retrieved 24th of October 2022 from https://unsplash.com/photos/LjqARJaJotc
+* Figma (n.d.). Wireframe Screenshot Reference. 
+* Google (n.d.). Montserrat font reference. Retrieved 24th of October 2022 from https://fonts.google.com/specimen/Montserrat
+* Heyerlein, H. (2017). Person with assorted color paint on face photo [Image]. Retrieved 24th of October 2022 from https://unsplash.com/photos/ndja2LJ4IcM 
+* Lanre-Ologun, D. (2018). Coding together, featured in Editorial, Business & Work, Technology [Image]. Retrieved 24th of October 2022 from https://unsplash.com/photos/kwzWjTnDPLk 
+* Mesh, C. (2020). Close up picture of a keyboard [Image].  Retrieved 24th of October 2022 from https://unsplash.com/photos/X0z-meKcGAE
+* Schneider, C. (2020). Plexus Net [Image].  Retrieved 24th of October 2022 from https://unsplash.com/photos/xuTJZ7uD7PI
+* Spiske, M.  (2020). Web source code java script. Made with analog vintage lens, Leica * Summicron-R 2.0 35mm (Year: 1978) [Image].  Retrieved 24th of October 2022 from https://unsplash.com/photos/hbb6GkG6p9M
+* Unsplash (n.d.). Github Icon. Retrieved 24th of October 2022 from  https://fontawesome.com/v4/icon/github
+* Unsplash (n.d.). Phone Icon. Retrieved 24th of October 2022 from  https://fontawesome.com/v4/icon/phone
+* Unsplash (n.d.). Linkedin Icon. Retrieved 24th of October 2022 from  https://fontawesome.com/v4/icon/linkedin

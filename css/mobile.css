@@ -1,6 +1,7 @@
 
-/* START MOBILE VIEWPORT */
-/* NAV BAR STYLING */
+/* Start Mobile Viewport */
+
+/* Nav Bar Styling */
 
 .my-logo img {
     width: 80px;
@@ -55,7 +56,7 @@ a.nav-list.active {
     justify-content: flex-end;
 }
 
-/* ROOT STYLING */
+/* Root Styling */
 
 .intro {
     margin-top: 15px;
@@ -81,7 +82,7 @@ a.nav-list.active {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* ABOUT-PAGE STYLING */
+/* About-page Styling */
 
 .about-me-left-side {
     display: flex;
@@ -126,7 +127,7 @@ a.checkout-resume-visited:visited {
     color: #6D1A36;
 }
 
-/* BLOG-PAGE STYLING */
+/* Blog-page Styling */
 
 .blogs {
     display: flex;
@@ -186,7 +187,7 @@ a.blog-visited:visited {
     color: #6D1A36;
 }
 
-/* BLOG-ARTICLE-PAGE STYLING */
+/* Blog-article-page Styling */
 
 .back-to-blog-link a {
     text-decoration: underline;
@@ -201,6 +202,7 @@ a.blog-visited:visited {
 
 .blog-title-article {
     margin-top: 5px;
+    color: rgba(35, 12, 15, .75);
 }
 
 .blog-timestamp-article {
@@ -231,7 +233,7 @@ a.back-visited:visited {
     color: #6D1A36;
 }
 
-/* CONTACT-PAGE STYLING */
+/* Contact-page Styling */
 
 .contact-container {
     margin-bottom: 25%;
@@ -274,7 +276,7 @@ a.hello:visited {
     color: #6D1A36;
 }
 
-/* FOOTER STYLING */
+/* Footer Styling */
 
 footer {
     position: absolute;
@@ -319,7 +321,7 @@ i {
     right: 0;
 }
 
-/* BLOG-PAGE FOOTER MOBILE STYLING */
+/* Blog-page Footer Styling */
 
 .footer-blog {
     position: relative;
@@ -365,5 +367,5 @@ i {
     color: rgba(35, 12, 15, .40);
 }
 
-/* END MOBILE VIEWPORT */
+/* End Mobile Viewport */
 

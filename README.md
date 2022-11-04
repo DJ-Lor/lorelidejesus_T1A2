@@ -1,7 +1,7 @@
 # LoreliDeJesus_T1A2 - Portfolio Website #
 ___
 * Published Portfolio: [INSERT LINK](https://www.example.com)
-* GitHub Repo: [INSERT LINK](https://www.example.com)
+* GitHub Repo: [https://github.com/DJ-Lor/lorelidejesus_T1A2](hhttps://github.com/DJ-Lor/lorelidejesus_T1A2)
 * Presentation Deck: [INSERT LINK](https://www.example.com)
 
 ___
@@ -135,28 +135,7 @@ ___
 
 ## 4. Sitemap ##
 
-* pages/
-    * index.html
-    * about-me.html
-    * blog.html
-    * blogs/
-        * blogs-1.html
-        * blogs-2.html
-        * blogs-3.html
-        * blogs-4.html
-        * blogs-5.html
-        * blogs-6.html
-    * contact.html
-* css/
-    * styles.css
-    * mobile.css
-    * tablet.css
-    * desktop.css
-* images/
-        * ...
-* docs/
-        * ...
-* .gitignore
+![Sitemap](/images/sitemap.png)
 
 ___
 

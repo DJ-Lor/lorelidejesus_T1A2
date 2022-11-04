@@ -102,6 +102,7 @@ ___
     * #F5E2C8
     * #6D1A36
     * #230C0F
+    * #F4FDAF
 
 * Defined the official website font through [google fonts](https://fonts.google.com/specimen/Montserrat) and font family established. Also set the global styling to a blank canvas. 
 
@@ -159,9 +160,9 @@ ___
 
 ___
 
-## 5. Wireframes ##
+## 5. Wireframes/Mock Ups ##
 
-Utilised [Figma](https://www.figma.com/) to create the website's wireframe. [^4] 
+Utilised [Figma](https://www.figma.com/) to create the website's wireframe/Mock up. [^4] 
 
 
 ![Root](/images/wireframe-root.png)

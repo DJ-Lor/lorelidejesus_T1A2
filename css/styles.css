@@ -1,6 +1,5 @@
 
 /* Global Styling */
-
 * {
     padding: 0;
     margin: 0;
@@ -32,4 +31,20 @@ a {
     color: #6D1A36;
 }
 
+/* Global Animations */
+.slide-left {
+    position: relative;
+    animation: slideleft 2s
+}
 
+@keyframes slideleft {
+    from {
+        left: -500px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}

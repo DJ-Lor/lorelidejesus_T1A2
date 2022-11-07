@@ -1,6 +1,6 @@
 # LoreliDeJesus_T1A2 - Portfolio Website #
 ___
-* Published Portfolio: [INSERT LINK](https://www.example.com)
+* Published Portfolio: [https://loreli.netlify.app/](https://loreli.netlify.app/)
 * GitHub Repo: [https://github.com/DJ-Lor/lorelidejesus_T1A2](hhttps://github.com/DJ-Lor/lorelidejesus_T1A2)
 * Presentation Deck: [INSERT LINK](https://www.example.com)
 
@@ -131,6 +131,10 @@ ___
 ![Footer-desktop](/docs/footer-desktop.png)
 ![Footer-mobile](/docs/footer-mobile.png)
 
+* Once the website structure and style was complete, I then added two key animations to strike a stronger first impression:
+
+    * Logo Zoom In Hover (Desktop)
+    * Landing Page Body Slide from Left Animations (All Viewports)
 ___
 
 ## 4. Sitemap ##
@@ -175,3 +179,4 @@ ____
 * Unsplash (n.d.). Github Icon. Retrieved 24th of October 2022 from  https://fontawesome.com/v4/icon/github
 * Unsplash (n.d.). Phone Icon. Retrieved 24th of October 2022 from  https://fontawesome.com/v4/icon/phone
 * Unsplash (n.d.). Linkedin Icon. Retrieved 24th of October 2022 from  https://fontawesome.com/v4/icon/linkedin
+* W3Schools (n.d.) Reference to CSS and HTML codes from https://www.w3schools.com/

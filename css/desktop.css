@@ -2,6 +2,14 @@
 
 @media screen and (min-width:992px) {
 
+    .my-logo {
+        transition: transform .2s;
+    }
+
+    .my-logo:hover {
+        transform: scale(1.2);
+    }
+
     .my-logo img {
         width: 100px;
         height: 100px;

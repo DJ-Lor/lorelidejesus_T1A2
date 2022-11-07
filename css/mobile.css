@@ -90,7 +90,7 @@ a.nav-list.active {
   
   @keyframes load {
     from {background-color: #F4FDAF;}
-    to {background-color: rgba(35, 12, 15, .5);}
+    to {background-color: rgba(12, 30, 35, 0.5);}
   }
 
 

@@ -118,24 +118,24 @@ ___
 ```
 * Navigation bar a tag text are styled to change colors when hovered over. This also remains highlighted in color when the user is active and on page. This is for the user to easily understand where they are in the navigation user journey. 
 
-![Nav-bar](/images/nav-bar.png)
+![Nav-bar](/docs/nav-bar.png)
 
 * Call-to-Action button styling included a drop-down shadow for a embossed effect. 
 
-![Button](/images/button-1.png)
+![Button](/docs/button-1.png)
 
 * The footer includes links to the social media and contact information. This is present across all the website to complement the Contact-page and also to make it easy for the user to contact the developer at any point in their user journey. This footer is styled vertically in desktop and horizontally in smaller devices. 
 
 * The footer icons are from fontawesome.com and have been styled to adjust sizing and color to fit for this website. 
 
-![Footer-desktop](/images/footer-desktop.png)
-![Footer-mobile](/images/footer-mobile.png)
+![Footer-desktop](/docs/footer-desktop.png)
+![Footer-mobile](/docs/footer-mobile.png)
 
 ___
 
 ## 4. Sitemap ##
 
-![Sitemap](/images/sitemap.png)
+![Sitemap](/docs/sitemap.png)
 
 ___
 
@@ -144,11 +144,11 @@ ___
 Utilised [Figma](https://www.figma.com/) to create the website's wireframe/Mock up. [^4] 
 
 
-![Root](/images/wireframe-root.png)
-![About-page](/images/wireframe-about-page.png)
-![Blog-page](/images/wireframe-blog-page.png)
-![Blog-article-page](/images/wireframe-blog-article-page.png)
-![Contact-page](/images/wireframe-contact-page.png)
+![Root](/docs/wireframe-root.png)
+![About-page](/docs/wireframe-about-page.png)
+![Blog-page](/docs/wireframe-blog-page.png)
+![Blog-article-page](/docs/wireframe-blog-article-page.png)
+![Contact-page](/docs/wireframe-contact-page.png)
 
 ___
 

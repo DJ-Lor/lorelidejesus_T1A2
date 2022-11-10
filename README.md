@@ -2,7 +2,7 @@
 ___
 * Published Portfolio: [https://loreli.netlify.app/](https://loreli.netlify.app/)
 * GitHub Repo: [https://github.com/DJ-Lor/lorelidejesus_T1A2](hhttps://github.com/DJ-Lor/lorelidejesus_T1A2)
-* Presentation Deck: [INSERT LINK](https://www.example.com)
+* Presentation Deck: [https://youtu.be/NFFaK-HktKE](https://youtu.be/NFFaK-HktKE)
 
 ___
 ## Table of Contents ##
@@ -37,7 +37,7 @@ ___
 
 * The header contains a logo and a navigation. 
 
-* The logo directs the user back to the index page. 
+* The logo directs the user back to the index page. Logo was also utilised for favicon across all pages. 
 
 
 ```html
@@ -145,15 +145,52 @@ ___
 
 ## 5. Wireframes/Mock Ups ##
 
-Utilised [Figma](https://www.figma.com/) to create the website's wireframe/Mock up. [^4] 
+Utilised [Figma](https://www.figma.com/) to create the website's wireframe/Mock up. 
 
+1. Landing Page 
+ * Wireframe/Mock Up
 
 ![Root](/docs/wireframe-root.png)
+
+ * Published Version
+
+ ![Published-LP](/docs/published-landing-page.png)
+
+ 2. About Page
+ * Wireframe/Mock Up
+
 ![About-page](/docs/wireframe-about-page.png)
+
+ * Published Version
+
+ ![Published-About-page](/docs/published-about-page.png)
+
+3. Blog Page
+ * Wireframe/Mock Up
+
 ![Blog-page](/docs/wireframe-blog-page.png)
+
+ * Published Version
+
+![Published-Blog-page](/docs/published-blog-page.png)
+
+4. Blog Article Page 
+ * Wireframe/Mock Up
+
 ![Blog-article-page](/docs/wireframe-blog-article-page.png)
+
+ * Published Version
+
+![Published-Blog-article-page](/docs/published-blog-article-page.png)
+
+5. Contact Page
+ * Wireframe/Mock Up
+
 ![Contact-page](/docs/wireframe-contact-page.png)
 
+ * Published Version
+
+ ![Published-Contact-page](/docs/published-contact-page.png)
 ___
 
 ## 6. Tech Stack ##
